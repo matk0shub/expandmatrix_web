@@ -1,14 +1,13 @@
 import { buildConfig } from 'payload'
-import { webpackBundler } from '@payloadcms/bundler-webpack'
 import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import path from 'path'
 import { Users } from './src/payload/collections/Users'
 
 export default buildConfig({
+  secret: process.env.PAYLOAD_SECRET!,
   admin: {
     user: 'users',
-    bundler: webpackBundler(),
   },
   editor: lexicalEditor({}),
   collections: [Users],

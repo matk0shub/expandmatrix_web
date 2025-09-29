@@ -1,7 +1,9 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Heart, Star, Zap } from 'lucide-react';
-import { Button } from '@radix-ui/react-slot';
+import { Slot } from '@radix-ui/react-slot';
 import { useForm } from 'react-hook-form';
 import { gsap } from 'gsap';
 import { useEffect } from 'react';
@@ -40,9 +42,9 @@ export default function Home() {
           <Zap className="w-6 h-6 text-blue-500" />
         </div>
         
-        <Button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+        <Slot className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
           Radix UI Button
-        </Button>
+        </Slot>
         
         <form onSubmit={handleSubmit(() => {})} className="flex flex-col gap-2">
           <input 

@@ -2,5 +2,56 @@
   "common": {
     "welcome": "Vítejte",
     "hello": "Ahoj"
+  },
+  "hero": {
+    "slogan": "Implementujeme chytrou inteligenci, která nezná hranice",
+    "cta": "Chci začít růst"
+  },
+  "sections": {
+    "accuracy": {
+      "title": "Přesnost a transparentnost",
+      "description": "Děláme jen to, v čem jsme nejlepší – AI agenti, weby a implementace AI do businessu. Nesnažíme se být agenturou na všechno. Stavíme na jasné strategii, silných nápadech a exekuci, která přináší výsledky.",
+      "stats": {
+        "projects": "Dokončených projektů",
+        "clients": "Spokojených klientů",
+        "years": "Let zkušeností"
+      }
+    },
+    "clients": {
+      "title": "Naši klienti"
+    },
+    "services": {
+      "title": "Naše služby",
+      "aiAgents": "AI agenti",
+      "websites": "Weby",
+      "aiImplementation": "Implementace AI"
+    },
+    "process": {
+      "title": "Proces spolupráce",
+      "description": "Naším cílem je, aby celý proces byl co nejhladší a bezproblémový, abyste se mohli soustředit na provoz svého podnikání, zatímco my se za Vás postaráme o zbytek.",
+      "cta": "Začít spolupráci",
+      "steps": {
+        "meeting": "Úvodní meeting",
+        "contract": "Platba & smlouva",
+        "access": "Sdílení přístupů",
+        "implementation": "První implementace",
+        "optimization": "Optimalizace"
+      }
+    },
+    "references": {
+      "title": "Reference"
+    },
+    "team": {
+      "title": "Náš tým"
+    },
+    "faq": {
+      "title": "Často kladené otázky"
+    }
+  },
+  "navigation": {
+    "home": "Domů",
+    "services": "Služby",
+    "about": "O nás",
+    "contact": "Kontakt"
   }
 }

@@ -2,5 +2,56 @@
   "common": {
     "welcome": "Welcome",
     "hello": "Hello"
+  },
+  "hero": {
+    "slogan": "We implement smart intelligence that knows no boundaries",
+    "cta": "I want to start growing"
+  },
+  "sections": {
+    "accuracy": {
+      "title": "Accuracy and transparency",
+      "description": "We only do what we're best at – AI agents, websites and AI implementation in business. We don't try to be an agency for everything. We build on clear strategy, strong ideas and execution that delivers results.",
+      "stats": {
+        "projects": "Completed projects",
+        "clients": "Satisfied clients",
+        "years": "Years of experience"
+      }
+    },
+    "clients": {
+      "title": "Our clients"
+    },
+    "services": {
+      "title": "Our services",
+      "aiAgents": "AI agents",
+      "websites": "Websites",
+      "aiImplementation": "AI implementation"
+    },
+    "process": {
+      "title": "Cooperation process",
+      "description": "Our goal is to make the entire process as smooth and problem-free as possible, so you can focus on running your business while we take care of the rest.",
+      "cta": "Start cooperation",
+      "steps": {
+        "meeting": "Initial meeting",
+        "contract": "Payment & contract",
+        "access": "Sharing access",
+        "implementation": "First implementation",
+        "optimization": "Optimization"
+      }
+    },
+    "references": {
+      "title": "References"
+    },
+    "team": {
+      "title": "Our team"
+    },
+    "faq": {
+      "title": "Frequently asked questions"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
   }
 }
